@@ -1,0 +1,302 @@
+{
+  "payload_detection_reference": {
+    "description": "Quick reference for adding common payload detection rules. Copy-paste these into rules.json to extend detection capabilities.",
+    "sql_injection_variants": [
+      {
+        "comment": "Union-based SQLi",
+        "rule": {
+          "name": "SQL Injection - UNION SELECT",
+          "payload_type": "regex",
+          "payload_pattern": "union(\\s)+select",
+          "severity": "CRITICAL"
+        }
+      },
+      {
+        "comment": "Time-based blind SQLi",
+        "rule": {
+          "name": "SQL Injection - Time Delay",
+          "payload_type": "regex",
+          "payload_pattern": "sleep\\s*\\(|benchmark\\s*\\(|waitfor\\s+delay",
+          "severity": "HIGH"
+        }
+      },
+      {
+        "comment": "Error-based SQLi",
+        "rule": {
+          "name": "SQL Injection - Error Based",
+          "payload_type": "regex",
+          "payload_pattern": "and\\s+1\\s*=\\s*2|or\\s+1\\s*=\\s*2",
+          "severity": "HIGH"
+        }
+      },
+      {
+        "comment": "Stacked queries",
+        "rule": {
+          "name": "SQL Injection - Stacked Queries",
+          "payload_type": "string",
+          "payload_pattern": ";DROP TABLE",
+          "severity": "CRITICAL"
+        }
+      }
+    ],
+    "xss_variants": [
+      {
+        "comment": "Script tag injection",
+        "rule": {
+          "name": "XSS - Script Tag",
+          "payload_type": "regex",
+          "payload_pattern": "<script[^>]*>.*?</script>",
+          "severity": "HIGH"
+        }
+      },
+      {
+        "comment": "JavaScript protocol",
+        "rule": {
+          "name": "XSS - JavaScript Protocol",
+          "payload_type": "regex",
+          "payload_pattern": "javascript\\s*:",
+          "severity": "HIGH"
+        }
+      },
+      {
+        "comment": "Event handlers",
+        "rule": {
+          "name": "XSS - Event Handlers",
+          "payload_type": "regex",
+          "payload_pattern": "on(load|error|click|mouse)\\s*=",
+          "severity": "HIGH"
+        }
+      },
+      {
+        "comment": "Data URIs",
+        "rule": {
+          "name": "XSS - Data URI",
+          "payload_type": "regex",
+          "payload_pattern": "data\\s*:\\s*text/html",
+          "severity": "MEDIUM"
+        }
+      }
+    ],
+    "command_injection": [
+      {
+        "comment": "Shell command chaining",
+        "rule": {
+          "name": "Command Injection - Pipe",
+          "payload_type": "string",
+          "payload_pattern": "| cat",
+          "severity": "CRITICAL"
+        }
+      },
+      {
+        "comment": "Backtick execution",
+        "rule": {
+          "name": "Command Injection - Backticks",
+          "payload_type": "regex",
+          "payload_pattern": "`.*?((cat|ls|whoami|id|nc|curl))",
+          "severity": "CRITICAL"
+        }
+      },
+      {
+        "comment": "Command substitution",
+        "rule": {
+          "name": "Command Injection - Substitution",
+          "payload_type": "regex",
+          "payload_pattern": "\\$\\(.*?(cat|ls|whoami)",
+          "severity": "CRITICAL"
+        }
+      }
+    ],
+    "file_upload_attacks": [
+      {
+        "comment": "PHP shell upload",
+        "rule": {
+          "name": "PHP Shell Upload",
+          "payload_type": "keywords",
+          "payload_pattern": ["<?php", "exec(", "shell_exec"],
+          "severity": "CRITICAL"
+        }
+      },
+      {
+        "comment": "JSP shell",
+        "rule": {
+          "name": "JSP Shell Upload",
+          "payload_type": "keywords",
+          "payload_pattern": ["<%", "Runtime.getRuntime()", "ProcessBuilder"],
+          "severity": "CRITICAL"
+        }
+      }
+    ],
+    "path_traversal": [
+      {
+        "comment": "Directory traversal (Unix)",
+        "rule": {
+          "name": "Path Traversal - Unix",
+          "payload_type": "regex",
+          "payload_pattern": "\\.\\./.*?(\\.\\./)+",
+          "severity": "HIGH"
+        }
+      },
+      {
+        "comment": "Directory traversal (Windows)",
+        "rule": {
+          "name": "Path Traversal - Windows",
+          "payload_type": "regex",
+          "payload_pattern": "\\.\\\\.*?(\\.\\\\)+",
+          "severity": "HIGH"
+        }
+      },
+      {
+        "comment": "Null byte injection",
+        "rule": {
+          "name": "Null Byte Injection",
+          "payload_type": "hex",
+          "payload_pattern": "00",
+          "severity": "HIGH"
+        }
+      }
+    ],
+    "credential_leaks": [
+      {
+        "comment": "HTTP Basic Auth in cleartext",
+        "rule": {
+          "name": "HTTP Basic Auth Detected",
+          "payload_type": "regex",
+          "payload_pattern": "Authorization:\\s*Basic\\s+[A-Za-z0-9+/=]{10,}",
+          "severity": "MEDIUM"
+        }
+      },
+      {
+        "comment": "AWS Access Key exposure",
+        "rule": {
+          "name": "AWS Access Key Exposed",
+          "payload_type": "regex",
+          "payload_pattern": "AKIA[0-9A-Z]{16}",
+          "severity": "CRITICAL"
+        }
+      },
+      {
+        "comment": "API key in URL",
+        "rule": {
+          "name": "API Key in Query String",
+          "payload_type": "regex",
+          "payload_pattern": "api[_-]?key\\s*=\\s*[a-f0-9]{20,}",
+          "severity": "HIGH"
+        }
+      }
+    ],
+    "malware_signatures": [
+      {
+        "comment": "Windows PE executable",
+        "rule": {
+          "name": "Windows Executable Download",
+          "payload_type": "hex",
+          "payload_pattern": "4d5a9000",
+          "severity": "CRITICAL",
+          "description": "MZ header - Windows executable"
+        }
+      },
+      {
+        "comment": "Linux ELF executable",
+        "rule": {
+          "name": "Linux Executable Download",
+          "payload_type": "hex",
+          "payload_pattern": "7f454c46",
+          "severity": "CRITICAL",
+          "description": "ELF header - Linux executable"
+        }
+      },
+      {
+        "comment": "ZIP file (potentially malicious archive)",
+        "rule": {
+          "name": "ZIP Archive Detected",
+          "payload_type": "hex",
+          "payload_pattern": "504b0304",
+          "severity": "MEDIUM"
+        }
+      }
+    ],
+    "data_exfiltration": [
+      {
+        "comment": "Large payload anomaly",
+        "rule": {
+          "name": "Potential Data Exfiltration",
+          "payload_type": "size",
+          "min_size": 5000000,
+          "max_size": 100000000,
+          "severity": "HIGH",
+          "description": "Detect unusually large payloads (5MB-100MB)"
+        }
+      },
+      {
+        "comment": "Multiple large file transfers",
+        "rule": {
+          "name": "Large File Transfer",
+          "payload_type": "size",
+          "min_size": 1000000,
+          "max_size": 10000000,
+          "severity": "MEDIUM",
+          "description": "Detect large transfers (1MB-10MB)"
+        }
+      }
+    ],
+    "encoding_evasion": [
+      {
+        "comment": "Base64 encoded payload (often malware)",
+        "rule": {
+          "name": "Base64 Encoded Payload",
+          "payload_type": "regex",
+          "payload_pattern": "[A-Za-z0-9+/]{100,}={0,2}",
+          "severity": "MEDIUM",
+          "description": "Detect large base64 blobs (potential shellcode)"
+        }
+      },
+      {
+        "comment": "Hex encoded payload",
+        "rule": {
+          "name": "Hex Encoded Payload",
+          "payload_type": "regex",
+          "payload_pattern": "[0-9a-f]{200,}",
+          "severity": "MEDIUM",
+          "description": "Detect large hex sequences (potential shellcode)"
+        }
+      }
+    ],
+    "usage_instructions": {
+      "step1": "Choose a rule from above that matches your detection needs",
+      "step2": "Copy the 'rule' object",
+      "step3": "Open rules.json in your editor",
+      "step4": "Find the last rule in the array (before the closing ']')",
+      "step5": "Add a comma after the last rule if needed",
+      "step6": "Paste your new rule",
+      "step7": "Save rules.json",
+      "step8": "Restart NIDS: py main.py",
+      "step9": "Monitor alerts in logs/nids.log or GUI"
+    },
+    "regex_cheat_sheet": {
+      "dot": ".",
+      "dot_meaning": "Matches any character except newline",
+      "star": "*",
+      "star_meaning": "0 or more of preceding character",
+      "plus": "+",
+      "plus_meaning": "1 or more of preceding character",
+      "question_mark": "?",
+      "question_meaning": "0 or 1 of preceding character",
+      "pipe": "|",
+      "pipe_meaning": "OR operator (union|select means 'union' OR 'select')",
+      "brackets": "[abc]",
+      "brackets_meaning": "Match any of: a, b, or c",
+      "negated": "[^abc]",
+      "negated_meaning": "Match anything EXCEPT: a, b, or c",
+      "escape": "\\",
+      "escape_meaning": "Escape special characters (\\$ for literal dollar sign)",
+      "digit": "\\d",
+      "digit_meaning": "Match any digit 0-9",
+      "non_digit": "\\D",
+      "non_digit_meaning": "Match any non-digit",
+      "whitespace": "\\s",
+      "whitespace_meaning": "Match space, tab, newline, etc.",
+      "word_boundary": "\\b",
+      "word_boundary_meaning": "Word boundary (useful for avoiding partial matches)"
+    }
+  }
+}

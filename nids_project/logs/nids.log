@@ -1,0 +1,457 @@
+2026-03-27 16:32:47,970 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 16:32:47,970 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 30%
+2026-03-27 16:32:47,970 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 16:32:47,970 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 16:32:47,970 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 10.128.0.0/24
+2026-03-27 16:32:47,970 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 16:32:47,970 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 16:32:47,970 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 16:32:47,970 [NIDS] INFO: Analyzing: data/attacks/2026-03-27_16-21-33_DDOS_MULTI.pcap
+2026-03-27 16:32:47,983 [NIDS] INFO: Loaded 150 packets
+2026-03-27 16:32:47,983 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,983 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,984 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,984 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,984 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,984 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,984 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,984 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,985 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,985 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,985 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,985 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,985 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,985 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,986 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,986 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,986 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,986 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,986 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,986 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,987 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,987 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,987 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,987 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,987 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,987 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,988 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,988 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,988 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,988 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.21 | Target: 10.0.0.1
+2026-03-27 16:32:47,988 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,988 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,989 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,989 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,989 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,989 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,989 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,989 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,990 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,990 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,990 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,990 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,990 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,991 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,991 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,991 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,991 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,991 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,992 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,992 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,992 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,992 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,992 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,993 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,993 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,993 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,993 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,993 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,993 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,994 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.63.197 | Target: 10.0.0.1
+2026-03-27 16:32:47,994 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,994 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,994 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,994 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,995 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,995 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,995 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,995 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,995 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,996 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,996 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,996 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,996 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,996 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,997 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,997 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,997 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,997 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,997 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,998 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,998 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,998 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,998 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,998 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,999 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,999 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,999 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,999 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:47,999 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:48,000 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.172.111 | Target: 10.0.0.1
+2026-03-27 16:32:48,000 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.116 | Target: 10.0.0.1
+2026-03-27 16:32:48,000 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.116 | Target: 10.0.0.1
+2026-03-27 16:32:48,000 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.116 | Target: 10.0.0.1
+2026-03-27 16:32:48,000 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.116 | Target: 10.0.0.1
+2026-03-27 16:32:48,001 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.116 | Target: 10.0.0.1
+2026-03-27 16:32:48,001 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.116 | Target: 10.0.0.1
+2026-03-27 16:32:48,001 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.116 | Target: 10.0.0.1
+2026-03-27 16:32:48,001 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.116 | Target: 10.0.0.1
+2026-03-27 16:32:48,001 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.116 | Target: 10.0.0.1
+2026-03-27 16:32:48,002 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.17.116 | Target: 10.0.0.1
+2026-03-27 16:32:48,002 [NIDS] INFO: 
+Complete: 100 alerts from 100 packets
+2026-03-27 16:32:59,532 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 16:32:59,532 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 30%
+2026-03-27 16:32:59,532 [AttackGenerator] INFO: Attack Generator initialized. Output: data/attacks
+2026-03-27 16:32:59,532 [AttackGenerator] INFO: Generating SQL Injection: 192.168.1.100 → 10.0.0.1:80
+2026-03-27 16:32:59,539 [AttackGenerator] INFO: ✓ Generated 40 attack packets
+2026-03-27 16:32:59,551 [AttackGenerator] INFO: ✓ PCAP saved: data/attacks/2026-03-27_16-32-59_SQL_INJECTION.pcap
+2026-03-27 16:33:54,378 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 16:33:54,378 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 30%
+2026-03-27 16:33:54,378 [AttackGenerator] INFO: Attack Generator initialized. Output: data/attacks
+2026-03-27 16:33:54,378 [AttackGenerator] INFO: Generating SQL Injection: 192.168.1.100 → 10.0.0.1:80
+2026-03-27 16:33:54,386 [AttackGenerator] INFO: ✓ Generated 40 attack packets
+2026-03-27 16:33:54,399 [AttackGenerator] INFO: ✓ PCAP saved: data/attacks/2026-03-27_16-33-54_SQL_INJECTION.pcap
+2026-03-27 16:33:54,402 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,402 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,403 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,403 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,404 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,404 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,404 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,405 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,405 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,406 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,406 [AttackGenerator] INFO: Generating XSS Attack: 192.168.1.100 → 10.0.0.1:80
+2026-03-27 16:33:54,413 [AttackGenerator] INFO: ✓ Generated 40 attack packets
+2026-03-27 16:33:54,426 [AttackGenerator] INFO: ✓ PCAP saved: data/attacks/2026-03-27_16-33-54_XSS.pcap
+2026-03-27 16:33:54,426 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,427 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,427 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,427 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,428 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,428 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,428 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 45.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,428 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,429 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,429 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,429 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 45.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,429 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,430 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,430 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,430 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,430 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,431 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,431 [AttackGenerator] INFO: Generating Command Injection: 192.168.1.100 → 10.0.0.1:80
+2026-03-27 16:33:54,443 [AttackGenerator] INFO: ✓ Generated 40 attack packets
+2026-03-27 16:33:54,458 [AttackGenerator] INFO: ✓ PCAP saved: data/attacks/2026-03-27_16-33-54_COMMAND_INJECTION.pcap
+2026-03-27 16:33:54,458 [AdvancedDetectionEngine] WARNING: [DETECTION] Command Injection Attack | Confidence: 75.0% | Severity: CRITICAL | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,458 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,459 [AdvancedDetectionEngine] WARNING: [DETECTION] Command Injection Attack | Confidence: 50.0% | Severity: CRITICAL | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,459 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,459 [AdvancedDetectionEngine] WARNING: [DETECTION] Command Injection Attack | Confidence: 65.0% | Severity: CRITICAL | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,459 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,459 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,460 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,460 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,460 [AdvancedDetectionEngine] WARNING: [DETECTION] Command Injection Attack | Confidence: 50.0% | Severity: CRITICAL | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,460 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,461 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,461 [AdvancedDetectionEngine] WARNING: [DETECTION] Command Injection Attack | Confidence: 50.0% | Severity: CRITICAL | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,461 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,462 [AdvancedDetectionEngine] WARNING: [DETECTION] Command Injection Attack | Confidence: 50.0% | Severity: CRITICAL | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:33:54,462 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,135 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 16:34:08,136 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 30%
+2026-03-27 16:34:08,144 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,144 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,145 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,145 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,145 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,146 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,146 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,146 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,147 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,147 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,147 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,147 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,148 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,148 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,148 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,148 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,149 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,149 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,149 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,150 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,155 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,156 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,156 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,156 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,156 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,156 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,157 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 45.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,157 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,157 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,157 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,158 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 45.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,158 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,158 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,158 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,159 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,159 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,159 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,159 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,160 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,160 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,160 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,160 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,160 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,161 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,161 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,161 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 45.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,161 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,161 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,162 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,162 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 45.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,162 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,162 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,163 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,163 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,168 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,168 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,169 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,169 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,169 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,169 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,169 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,170 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,170 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,170 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,170 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,170 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,170 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,171 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,171 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,171 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,171 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,171 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,171 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,172 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,177 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,177 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,177 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,178 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,178 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,178 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,178 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,178 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,179 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,179 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,179 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,179 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,179 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,179 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,180 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,180 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,180 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,180 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,180 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,181 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:08,188 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,188 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,189 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,189 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,189 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,190 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,190 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,190 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,190 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,191 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,191 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,191 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,191 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,192 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,192 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,192 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,192 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,193 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,193 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:08,193 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,238 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 16:34:19,238 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 30%
+2026-03-27 16:34:19,247 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,247 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,248 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,248 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,248 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,248 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,249 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,249 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,249 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,250 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,250 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,250 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,250 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,251 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,251 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,251 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,251 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,252 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,252 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,252 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,258 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,258 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,258 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,258 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,259 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,259 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,259 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 45.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,259 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,260 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,260 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,260 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 45.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,260 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,260 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,260 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,261 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,261 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,261 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,262 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,262 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,262 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,262 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,263 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,263 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,263 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,263 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,264 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 45.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,264 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,264 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,264 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,264 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 45.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,264 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,265 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,265 [AdvancedDetectionEngine] WARNING: [DETECTION] Cross-Site Scripting (XSS) | Confidence: 30.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,265 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,270 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,271 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,271 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,271 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,271 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,271 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,271 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,272 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,272 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,272 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,272 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,272 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,273 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,273 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,273 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,273 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,273 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,274 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,274 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,274 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,279 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,279 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,280 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,280 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,280 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,280 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,280 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,280 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,281 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,281 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,281 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,281 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,281 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,282 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,282 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,282 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,282 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,282 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,282 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,283 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.64.13 | Target: 10.0.0.1
+2026-03-27 16:34:19,290 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,291 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,291 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,291 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,291 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,292 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,292 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,292 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,292 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,293 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,293 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,293 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,294 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,294 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,294 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,294 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,295 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,295 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,295 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,296 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,800 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 16:34:19,800 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 30%
+2026-03-27 16:34:19,800 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 16:34:19,800 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 16:34:19,800 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 10.128.0.0/24
+2026-03-27 16:34:19,800 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 16:34:19,800 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 16:34:19,800 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 16:34:19,800 [NIDS] INFO: Analyzing: data/attacks/2026-03-27_16-33-54_COMMAND_INJECTION.pcap
+2026-03-27 16:34:19,806 [NIDS] INFO: Loaded 40 packets
+2026-03-27 16:34:19,806 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,806 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,806 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,807 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,807 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,807 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,807 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,807 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,807 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,807 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,808 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,808 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,808 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,808 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,808 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,808 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,808 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,809 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,809 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,809 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,809 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,809 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,809 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,809 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,810 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,810 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,810 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,810 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,810 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,810 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,810 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,811 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,811 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,811 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,811 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,811 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,811 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,812 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,812 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,812 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.100 | Target: 10.0.0.1
+2026-03-27 16:34:19,812 [NIDS] INFO: 
+Complete: 40 alerts from 40 packets

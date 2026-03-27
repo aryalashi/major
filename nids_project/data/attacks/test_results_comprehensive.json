@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-03-27T15:29:19.763917",
+  "total_tests": 10,
+  "tests_passed": 0,
+  "tests_failed": 10,
+  "results": [
+    {
+      "attack_type": "tcp_syn_flood",
+      "expected_rule": "TCP SYN Flood",
+      "packets_generated": 150,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "processing_time_ms": 0.4298686981201172,
+      "latency_per_packet_ms": 0.0028657913208007812,
+      "pcap_file": "attacks/2026-03-27_15-29-14_TCP_SYN_FLOOD.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "tcp_ack_flood",
+      "expected_rule": "TCP ACK Flood",
+      "packets_generated": 150,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "processing_time_ms": 0.4572868347167969,
+      "latency_per_packet_ms": 0.0030485788981119795,
+      "pcap_file": "attacks/2026-03-27_15-29-14_TCP_ACK_FLOOD.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "udp_flood",
+      "expected_rule": "UDP Flood",
+      "packets_generated": 300,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "processing_time_ms": 1.0085105895996094,
+      "latency_per_packet_ms": 0.0033617019653320312,
+      "pcap_file": "attacks/2026-03-27_15-29-15_UDP_FLOOD.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "icmp_flood",
+      "expected_rule": "ICMP Flood",
+      "packets_generated": 150,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "processing_time_ms": 0.7195472717285156,
+      "latency_per_packet_ms": 0.0047969818115234375,
+      "pcap_file": "attacks/2026-03-27_15-29-16_ICMP_FLOOD.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "ddos_multi",
+      "expected_rule": "DDOS Multi-Source",
+      "packets_generated": 150,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "processing_time_ms": 0.5948543548583984,
+      "latency_per_packet_ms": 0.003965695699055989,
+      "pcap_file": "attacks/2026-03-27_15-29-16_DDOS_MULTI.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "sql_injection",
+      "expected_rule": "SQL Injection",
+      "packets_generated": 60,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "processing_time_ms": 0.2987384796142578,
+      "latency_per_packet_ms": 0.00497897466023763,
+      "pcap_file": "attacks/2026-03-27_15-29-17_SQL_INJECTION.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "xss",
+      "expected_rule": "XSS Attack",
+      "packets_generated": 60,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "processing_time_ms": 0.2810955047607422,
+      "latency_per_packet_ms": 0.004684925079345703,
+      "pcap_file": "attacks/2026-03-27_15-29-17_XSS.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "command_injection",
+      "expected_rule": "Command Injection",
+      "packets_generated": 60,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "processing_time_ms": 0.247955322265625,
+      "latency_per_packet_ms": 0.004132588704427083,
+      "pcap_file": "attacks/2026-03-27_15-29-18_COMMAND_INJECTION.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "port_scan",
+      "expected_rule": "Port Scan",
+      "packets_generated": 50,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "processing_time_ms": 0.217437744140625,
+      "latency_per_packet_ms": 0.0043487548828125,
+      "pcap_file": "attacks/2026-03-27_15-29-18_PORT_SCAN.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "brute_force",
+      "expected_rule": "Brute Force Attack",
+      "packets_generated": 90,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "processing_time_ms": 0.36215782165527344,
+      "latency_per_packet_ms": 0.004023975796169705,
+      "pcap_file": "attacks/2026-03-27_15-29-19_BRUTE_FORCE.pcap",
+      "status": "FAIL"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "timestamp": "2026-03-27T15:30:55.698948",
+  "total_tests": 8,
+  "tests_passed": 0,
+  "tests_failed": 8,
+  "results": [
+    {
+      "attack_type": "tcp_syn_flood",
+      "expected_rule": "TCP SYN Flood",
+      "packets_generated": 200,
+      "detections": 1,
+      "detection_rate": 0.5,
+      "avg_confidence": 100.0,
+      "detected_types": [
+        "Targeted Attack Pattern"
+      ],
+      "processing_time_ms": 54.52275276184082,
+      "pcap_file": "attacks/2026-03-27_15-30-51_TCP_SYN_FLOOD.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "udp_flood",
+      "expected_rule": "UDP Flood",
+      "packets_generated": 200,
+      "detections": 2,
+      "detection_rate": 1.0,
+      "avg_confidence": 32.5,
+      "detected_types": [
+        "Command Injection Attack",
+        "Encoding Attack"
+      ],
+      "processing_time_ms": 107.22827911376953,
+      "pcap_file": "attacks/2026-03-27_15-30-51_UDP_FLOOD.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "ddos_multi",
+      "expected_rule": "DDOS Multi-Source",
+      "packets_generated": 100,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "detected_types": [],
+      "processing_time_ms": 31.650543212890625,
+      "pcap_file": "attacks/2026-03-27_15-30-52_DDOS_MULTI.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "sql_injection",
+      "expected_rule": "SQL Injection",
+      "packets_generated": 40,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "detected_types": [],
+      "processing_time_ms": 19.156455993652344,
+      "pcap_file": "attacks/2026-03-27_15-30-52_SQL_INJECTION.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "xss",
+      "expected_rule": "XSS Attack",
+      "packets_generated": 40,
+      "detections": 2,
+      "detection_rate": 5.0,
+      "avg_confidence": 72.5,
+      "detected_types": [
+        "Cross-Site Scripting (XSS)",
+        "DDoS Multi-Source Attack"
+      ],
+      "processing_time_ms": 22.48096466064453,
+      "pcap_file": "attacks/2026-03-27_15-30-53_XSS.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "command_injection",
+      "expected_rule": "Command Injection",
+      "packets_generated": 40,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "detected_types": [],
+      "processing_time_ms": 18.9516544342041,
+      "pcap_file": "attacks/2026-03-27_15-30-54_COMMAND_INJECTION.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "port_scan",
+      "expected_rule": "Port Scan",
+      "packets_generated": 50,
+      "detections": 1,
+      "detection_rate": 2.0,
+      "avg_confidence": 40.0,
+      "detected_types": [
+        "TCP SYN Port Scan"
+      ],
+      "processing_time_ms": 17.203569412231445,
+      "pcap_file": "attacks/2026-03-27_15-30-54_PORT_SCAN.pcap",
+      "status": "FAIL"
+    },
+    {
+      "attack_type": "brute_force",
+      "expected_rule": "Brute Force Attack",
+      "packets_generated": 60,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "avg_confidence": 0,
+      "detected_types": [],
+      "processing_time_ms": 28.561115264892578,
+      "pcap_file": "attacks/2026-03-27_15-30-55_BRUTE_FORCE.pcap",
+      "status": "FAIL"
+    }
+  ]
+}
