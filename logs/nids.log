@@ -1005,3 +1005,35 @@
 2026-03-27 20:50:05,764 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 57.144.40.145 | severity=HIGH
 2026-03-27 20:50:09,989 [AdvancedDetectionEngine] WARNING: [DETECTION] TCP_ACK Flood | Confidence: 100.0% | Severity: HIGH | Source: 142.250.67.74 | Target: 192.168.1.77
 2026-03-27 20:50:09,990 [NIDS] WARNING: [ALERT] TCP_ACK Flood | 142.250.67.74 -> 192.168.1.77 | severity=HIGH
+2026-03-27 21:10:15,605 [NIDS] INFO: ============================================================
+2026-03-27 21:10:15,605 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 21:10:15,606 [NIDS] INFO: ============================================================
+2026-03-27 21:10:15,606 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 21:10:15,606 [NetworkScanner] INFO: NetworkScanner initialized
+2026-03-27 21:10:15,606 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 21:10:15,606 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 21:10:15,607 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 21:10:15,607 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 21:10:15,635 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 21:10:15,635 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 21:10:15,636 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 21:10:15,636 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 21:10:15,636 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 21:10:15,636 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 21:10:15,636 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 21:10:15,636 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 21:10:15,636 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 21:10:15,637 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 21:10:20,085 [NetworkScanner] INFO: [DISCOVERY] Starting ARP scan on 192.168.1.0/24
+2026-03-27 21:10:22,320 [NetworkScanner] INFO: [DEVICE_DISCOVERED] 192.168.1.77 (80:b6:55:ec:66:e8) - ashisharyal
+2026-03-27 21:10:22,320 [NetworkScanner] INFO: [DISCOVERY] Discovered 1 device(s)
+2026-03-27 21:10:43,236 [PacketCapture] INFO: Packet capture started on: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 21:10:43,237 [NIDS] INFO: Capture started on interface: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 21:10:43,714 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 57.144.40.145
+2026-03-27 21:10:43,714 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 57.144.40.145 | severity=HIGH
+2026-03-27 21:10:45,507 [PacketCapture] INFO: Packet capture stopped.
+2026-03-27 21:10:45,507 [NIDS] INFO: Capture stopped.
+2026-03-27 21:10:46,077 [PacketCapture] INFO: Packet capture started on: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 21:10:46,078 [NIDS] INFO: Capture started on interface: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 21:10:47,971 [PacketCapture] INFO: Packet capture stopped.
+2026-03-27 21:10:47,971 [NIDS] INFO: Capture stopped.
