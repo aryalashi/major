@@ -1,0 +1,1007 @@
+2026-03-27 18:11:57,114 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:11:57,115 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:11:57,115 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:11:57,115 [HotspotMonitor] INFO: [CLIENT CONNECTED] iPhone | MAC: AA:BB:CC:DD:EE:01 | IP: 192.168.43.10
+2026-03-27 18:11:57,115 [HotspotMonitor] INFO: [CLIENT CONNECTED] Android Phone | MAC: AA:BB:CC:DD:EE:02 | IP: 192.168.43.11
+2026-03-27 18:11:57,115 [HotspotMonitor] INFO: [CLIENT CONNECTED] Laptop | MAC: AA:BB:CC:DD:EE:03 | IP: 192.168.43.12
+2026-03-27 18:11:57,115 [HotspotMonitor] INFO: [CLIENT RECONNECTED] iPhone
+2026-03-27 18:11:57,119 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.43.10 | Target: 8.8.8.8
+2026-03-27 18:11:57,119 [HotspotMonitor] WARNING: [ATTACK FROM DEVICE] iPhone (AA:BB:CC:DD:EE:01) → Targeted Attack Pattern | Confidence: 100.0%
+2026-03-27 18:11:57,119 [HotspotMonitor] INFO: [CLIENT RECONNECTED] Android Phone
+2026-03-27 18:11:57,119 [HotspotMonitor] INFO: [CLIENT RECONNECTED] Laptop
+2026-03-27 18:12:04,969 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:12:04,969 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:12:17,867 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:12:17,867 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:12:17,868 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:12:17,868 [NetworkScanner] INFO: [DISCOVERY] Scanning network: 192.168.1.0/24
+2026-03-27 18:12:50,549 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:12:50,549 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:12:50,550 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:12:50,550 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.50
+2026-03-27 18:12:50,550 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.100
+2026-03-27 18:12:50,550 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.101
+2026-03-27 18:12:50,550 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.1
+2026-03-27 18:12:50,553 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.50 | Target: 192.168.1.1
+2026-03-27 18:12:50,553 [NetworkScanner] WARNING: [THREAT DETECTED] Targeted Attack Pattern | From: 192.168.1.50:54321 → 192.168.1.1:80 | Confidence: 100.0% | Severity: HIGH
+2026-03-27 18:12:50,654 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.200
+2026-03-27 18:15:05,073 [NIDS] INFO: ============================================================
+2026-03-27 18:15:05,073 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:15:05,073 [NIDS] INFO: ============================================================
+2026-03-27 18:15:05,073 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:15:05,074 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:15:05,074 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:15:05,074 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:15:05,075 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:15:05,075 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:15:05,075 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:15:05,075 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:15:05,112 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:15:05,112 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:15:05,113 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:15:05,113 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:15:05,113 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:15:05,113 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:15:05,113 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:15:05,114 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:15:05,114 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:15:05,114 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:15:12,407 [PacketCapture] INFO: Packet capture started on: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:15:12,407 [NIDS] INFO: Capture started on interface: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:15:14,037 [PacketCapture] INFO: Packet capture stopped.
+2026-03-27 18:15:14,037 [NIDS] INFO: Capture stopped.
+2026-03-27 18:15:23,730 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:15:23,730 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:15:23,730 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:15:23,731 [HotspotMonitor] INFO: [CLIENT CONNECTED] iPhone | MAC: AA:BB:CC:DD:EE:01 | IP: 192.168.43.10
+2026-03-27 18:15:23,731 [HotspotMonitor] INFO: [CLIENT CONNECTED] Android Phone | MAC: AA:BB:CC:DD:EE:02 | IP: 192.168.43.11
+2026-03-27 18:15:23,731 [HotspotMonitor] INFO: [CLIENT CONNECTED] Laptop | MAC: AA:BB:CC:DD:EE:03 | IP: 192.168.43.12
+2026-03-27 18:15:23,731 [HotspotMonitor] INFO: [CLIENT RECONNECTED] iPhone
+2026-03-27 18:15:23,734 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.43.10 | Target: 8.8.8.8
+2026-03-27 18:15:23,734 [HotspotMonitor] WARNING: [ATTACK FROM DEVICE] iPhone (AA:BB:CC:DD:EE:01) → Targeted Attack Pattern | Confidence: 100.0%
+2026-03-27 18:15:23,734 [HotspotMonitor] INFO: [CLIENT RECONNECTED] Android Phone
+2026-03-27 18:15:23,734 [HotspotMonitor] INFO: [CLIENT RECONNECTED] Laptop
+2026-03-27 18:15:31,577 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:15:31,577 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:15:31,577 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:15:31,577 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.50
+2026-03-27 18:15:31,577 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.100
+2026-03-27 18:15:31,577 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.101
+2026-03-27 18:15:31,578 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.1
+2026-03-27 18:15:31,581 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.50 | Target: 192.168.1.1
+2026-03-27 18:15:31,582 [NetworkScanner] WARNING: [THREAT DETECTED] Targeted Attack Pattern | From: 192.168.1.50:54321 → 192.168.1.1:80 | Confidence: 100.0% | Severity: HIGH
+2026-03-27 18:15:31,682 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.200
+2026-03-27 18:16:16,118 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:16:16,118 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:16:16,118 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:16:16,119 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.10
+2026-03-27 18:16:16,119 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.20
+2026-03-27 18:16:16,119 [NetworkScanner] INFO: [DEVICE] Added: 192.168.1.1
+2026-03-27 18:16:16,123 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.10 | Target: 192.168.1.1
+2026-03-27 18:16:16,123 [NetworkScanner] WARNING: [THREAT DETECTED] Targeted Attack Pattern | From: 192.168.1.10:54321 → 192.168.1.1:80 | Confidence: 100.0% | Severity: HIGH
+2026-03-27 18:17:35,392 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:17:35,392 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:17:35,392 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:17:35,392 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:17:35,392 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:17:35,392 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:18:55,623 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:18:55,623 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:18:55,626 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.50 | Target: 192.168.1.100
+2026-03-27 18:20:50,049 [NIDS] INFO: ============================================================
+2026-03-27 18:20:50,049 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:20:50,049 [NIDS] INFO: ============================================================
+2026-03-27 18:20:50,050 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:20:50,051 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:20:50,051 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:20:50,051 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:20:50,052 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:20:50,052 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:20:50,052 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:20:50,052 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:20:50,085 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:20:50,086 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:20:50,086 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:20:50,086 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:20:50,087 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:20:50,087 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:20:50,087 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:20:50,087 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:20:50,087 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:20:50,087 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:21:31,049 [NIDS] INFO: ============================================================
+2026-03-27 18:21:31,049 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:21:31,049 [NIDS] INFO: ============================================================
+2026-03-27 18:21:31,050 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:21:31,051 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:21:31,051 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:21:31,052 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:21:31,052 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:21:31,053 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:21:31,053 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:21:31,053 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:21:31,077 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:21:31,078 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:21:31,078 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:21:31,078 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:21:31,078 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:21:31,079 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:21:31,079 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:21:31,079 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:21:31,079 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:21:31,080 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:23:27,857 [NIDS] INFO: ============================================================
+2026-03-27 18:23:27,858 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:23:27,858 [NIDS] INFO: ============================================================
+2026-03-27 18:23:27,858 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:23:27,860 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:23:27,860 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:23:27,860 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:23:27,861 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:23:27,861 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:23:27,861 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:23:27,862 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:23:27,888 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:23:27,888 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:23:27,888 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:23:27,888 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:23:27,888 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:23:27,889 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:23:27,889 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:23:27,889 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:23:27,889 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:23:27,889 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:27:17,961 [NIDS] INFO: ============================================================
+2026-03-27 18:27:17,961 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:27:17,962 [NIDS] INFO: ============================================================
+2026-03-27 18:27:17,962 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:27:17,964 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:27:17,964 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:27:17,964 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:27:17,965 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:27:17,965 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:27:17,965 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:27:17,965 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:27:17,993 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:27:17,993 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:27:17,993 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:27:17,993 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:27:17,994 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:27:17,994 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:27:17,994 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:27:17,994 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:27:17,994 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:27:17,994 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:32:47,852 [NIDS] INFO: ============================================================
+2026-03-27 18:32:47,852 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:32:47,853 [NIDS] INFO: ============================================================
+2026-03-27 18:32:47,853 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:32:47,854 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:32:47,854 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:32:47,855 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:32:47,855 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:32:47,855 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:32:47,855 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:32:47,855 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:32:47,883 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:32:47,883 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:32:47,884 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:32:47,884 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:32:47,884 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:32:47,884 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:32:47,885 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:32:47,885 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:32:47,885 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:32:47,885 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:34:20,563 [NIDS] INFO: ============================================================
+2026-03-27 18:34:20,564 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:34:20,564 [NIDS] INFO: ============================================================
+2026-03-27 18:34:20,564 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:34:20,566 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:34:20,566 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:34:20,566 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:34:20,566 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:34:20,567 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:34:20,567 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:34:20,567 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:34:20,592 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:34:20,592 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:34:20,592 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:34:20,593 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:34:20,593 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:34:20,593 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:34:20,593 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:34:20,593 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:34:20,594 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:34:20,594 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:40:54,302 [NIDS] INFO: ============================================================
+2026-03-27 18:40:54,302 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:40:54,303 [NIDS] INFO: ============================================================
+2026-03-27 18:40:54,303 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:40:54,305 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:40:54,305 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:40:54,305 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:40:54,306 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:40:54,306 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:40:54,306 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:40:54,306 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:40:54,341 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:40:54,341 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:40:54,342 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:40:54,342 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:40:54,342 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:40:54,342 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:40:54,342 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:40:54,343 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:40:54,343 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:40:54,343 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:42:09,067 [NIDS] INFO: ============================================================
+2026-03-27 18:42:09,067 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:42:09,067 [NIDS] INFO: ============================================================
+2026-03-27 18:42:09,068 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:42:09,069 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:42:09,069 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:42:09,070 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:42:09,070 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:42:09,070 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:42:09,070 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:42:09,070 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:42:09,101 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:42:09,102 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:42:09,102 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:42:09,102 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:42:09,103 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:42:09,103 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:42:09,103 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:42:09,103 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:42:09,103 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:42:09,104 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:45:42,492 [NIDS] INFO: ============================================================
+2026-03-27 18:45:42,492 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:45:42,493 [NIDS] INFO: ============================================================
+2026-03-27 18:45:42,493 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:45:42,494 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:45:42,494 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:45:42,495 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:45:42,495 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:45:42,495 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:45:42,496 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:45:42,496 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:45:42,528 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:45:42,529 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:45:42,529 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:45:42,529 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:45:42,529 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:45:42,530 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:45:42,530 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:45:42,530 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:45:42,530 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:45:42,530 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:45:51,082 [NIDS] INFO: ============================================================
+2026-03-27 18:45:51,082 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:45:51,082 [NIDS] INFO: ============================================================
+2026-03-27 18:45:51,083 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:45:51,084 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:45:51,085 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:45:51,085 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:45:51,086 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:45:51,086 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:45:51,086 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:45:51,087 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:45:51,120 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:45:51,120 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:45:51,120 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:45:51,120 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:45:51,121 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:45:51,121 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:45:51,121 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:45:51,121 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:45:51,121 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:45:51,122 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:46:41,794 [NIDS] INFO: ============================================================
+2026-03-27 18:46:41,794 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:46:41,794 [NIDS] INFO: ============================================================
+2026-03-27 18:46:41,794 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:46:41,796 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:46:41,796 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:46:41,797 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:46:41,797 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:46:41,797 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:46:41,797 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:46:41,798 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:46:41,830 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:46:41,830 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:46:41,830 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:46:41,830 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:46:41,830 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:46:41,831 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:46:41,831 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:46:41,831 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:46:41,831 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:46:41,831 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:49:46,518 [NIDS] INFO: ============================================================
+2026-03-27 18:49:46,519 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:49:46,519 [NIDS] INFO: ============================================================
+2026-03-27 18:49:46,519 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:49:46,520 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:49:46,520 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:49:46,520 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:49:46,520 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:49:46,520 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:49:46,520 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:49:46,520 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:49:46,551 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:49:46,551 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:49:46,551 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:49:46,551 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:49:46,551 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:49:46,551 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:49:46,552 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:49:46,552 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:49:46,552 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:49:46,552 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:50:43,105 [NIDS] INFO: ============================================================
+2026-03-27 18:50:43,106 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:50:43,106 [NIDS] INFO: ============================================================
+2026-03-27 18:50:43,107 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:50:43,108 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:50:43,108 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:50:43,109 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:50:43,109 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:50:43,109 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:50:43,110 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:50:43,110 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:50:43,141 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:50:43,141 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:50:43,142 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:50:43,142 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:50:43,142 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:50:43,142 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:50:43,142 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:50:43,143 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:50:43,143 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:50:43,143 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:55:34,488 [NIDS] INFO: ============================================================
+2026-03-27 18:55:34,488 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:55:34,488 [NIDS] INFO: ============================================================
+2026-03-27 18:55:34,489 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:55:34,490 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:55:34,490 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:55:34,490 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:55:34,490 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:55:34,490 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:55:34,490 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:55:34,490 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:55:34,521 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:55:34,521 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:55:34,521 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:55:34,521 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:55:34,521 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:55:34,521 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:55:34,521 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:55:34,521 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:55:34,521 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:55:34,521 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:57:19,469 [NIDS] INFO: ============================================================
+2026-03-27 18:57:19,470 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:57:19,470 [NIDS] INFO: ============================================================
+2026-03-27 18:57:19,470 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:57:19,472 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:57:19,472 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:57:19,473 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:57:19,473 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:57:19,473 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:57:19,473 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:57:19,474 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:57:19,513 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:57:19,513 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:57:19,513 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:57:19,513 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:57:19,514 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:57:19,514 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:57:19,514 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:57:19,515 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:57:19,515 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:57:19,515 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:58:43,903 [NIDS] INFO: ============================================================
+2026-03-27 18:58:43,903 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:58:43,903 [NIDS] INFO: ============================================================
+2026-03-27 18:58:43,903 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:58:43,905 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:58:43,905 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:58:43,905 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:58:43,905 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:58:43,905 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:58:43,905 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:58:43,905 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:58:43,935 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:58:43,935 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:58:43,935 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:58:43,935 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:58:43,935 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:58:43,935 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:58:43,935 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:58:43,935 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:58:43,935 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:58:43,935 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 18:59:33,191 [NIDS] INFO: ============================================================
+2026-03-27 18:59:33,192 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 18:59:33,192 [NIDS] INFO: ============================================================
+2026-03-27 18:59:33,192 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:59:33,193 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:59:33,193 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:59:33,193 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 18:59:33,193 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 18:59:33,193 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 18:59:33,193 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 18:59:33,193 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 18:59:33,222 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 18:59:33,222 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 18:59:33,222 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 18:59:33,222 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 18:59:33,222 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 18:59:33,222 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 18:59:33,222 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 18:59:33,222 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 18:59:33,222 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 18:59:33,222 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:02:22,654 [NIDS] INFO: ============================================================
+2026-03-27 19:02:22,655 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:02:22,655 [NIDS] INFO: ============================================================
+2026-03-27 19:02:22,655 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:02:22,656 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:02:22,656 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:02:22,656 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:02:22,656 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:02:22,656 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:02:22,656 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:02:22,656 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:02:22,689 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:02:22,689 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:02:22,689 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:02:22,689 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:02:22,689 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:02:22,689 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:02:22,689 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:02:22,689 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:02:22,689 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:02:22,689 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:02:41,420 [NIDS] INFO: ============================================================
+2026-03-27 19:02:41,420 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:02:41,421 [NIDS] INFO: ============================================================
+2026-03-27 19:02:41,421 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:02:41,422 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:02:41,422 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:02:41,423 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:02:41,423 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:02:41,423 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:02:41,424 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:02:41,424 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:02:41,454 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:02:41,454 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:02:41,454 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:02:41,454 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:02:41,454 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:02:41,455 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:02:41,455 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:02:41,455 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:02:41,455 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:02:41,455 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:02:45,645 [PacketCapture] INFO: Packet capture started on: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:02:45,646 [NIDS] INFO: Capture started on interface: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:02:53,620 [PacketCapture] INFO: [PacketCapture] 500 packets captured | 8 unique sources | 0 dropped
+2026-03-27 19:03:03,583 [PacketCapture] INFO: [PacketCapture] 1,000 packets captured | 11 unique sources | 0 dropped
+2026-03-27 19:03:10,726 [PacketCapture] INFO: [PacketCapture] 1,500 packets captured | 13 unique sources | 0 dropped
+2026-03-27 19:03:18,102 [PacketCapture] INFO: [PacketCapture] 2,000 packets captured | 16 unique sources | 0 dropped
+2026-03-27 19:03:24,749 [PacketCapture] INFO: [PacketCapture] 2,500 packets captured | 18 unique sources | 0 dropped
+2026-03-27 19:03:31,829 [PacketCapture] INFO: [PacketCapture] 3,000 packets captured | 20 unique sources | 0 dropped
+2026-03-27 19:03:38,884 [PacketCapture] INFO: [PacketCapture] 3,500 packets captured | 20 unique sources | 0 dropped
+2026-03-27 19:03:50,758 [PacketCapture] INFO: [PacketCapture] 4,000 packets captured | 21 unique sources | 0 dropped
+2026-03-27 19:03:58,277 [PacketCapture] INFO: [PacketCapture] 4,500 packets captured | 21 unique sources | 0 dropped
+2026-03-27 19:04:06,569 [PacketCapture] INFO: [PacketCapture] 5,000 packets captured | 21 unique sources | 0 dropped
+2026-03-27 19:04:06,570 [PacketCapture] WARNING: [PacketCapture] Queue full — 1 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:11,487 [PacketCapture] WARNING: [PacketCapture] Queue full — 101 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:11,586 [PacketCapture] WARNING: [PacketCapture] Queue full — 201 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:12,217 [PacketCapture] WARNING: [PacketCapture] Queue full — 301 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:12,308 [PacketCapture] WARNING: [PacketCapture] Queue full — 401 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:13,166 [PacketCapture] INFO: [PacketCapture] 5,500 packets captured | 21 unique sources | 498 dropped
+2026-03-27 19:04:13,173 [PacketCapture] WARNING: [PacketCapture] Queue full — 501 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:16,655 [PacketCapture] WARNING: [PacketCapture] Queue full — 601 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:20,228 [PacketCapture] WARNING: [PacketCapture] Queue full — 701 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:22,724 [PacketCapture] WARNING: [PacketCapture] Queue full — 801 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:23,389 [PacketCapture] WARNING: [PacketCapture] Queue full — 901 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:30,801 [PacketCapture] INFO: [PacketCapture] 6,000 packets captured | 21 unique sources | 998 dropped
+2026-03-27 19:04:30,805 [PacketCapture] WARNING: [PacketCapture] Queue full — 1001 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:33,774 [PacketCapture] WARNING: [PacketCapture] Queue full — 1101 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:35,132 [PacketCapture] WARNING: [PacketCapture] Queue full — 1201 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:37,665 [PacketCapture] WARNING: [PacketCapture] Queue full — 1301 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:39,123 [PacketCapture] WARNING: [PacketCapture] Queue full — 1401 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:40,803 [PacketCapture] INFO: [PacketCapture] 6,500 packets captured | 21 unique sources | 1498 dropped
+2026-03-27 19:04:40,804 [PacketCapture] WARNING: [PacketCapture] Queue full — 1501 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:44,571 [PacketCapture] WARNING: [PacketCapture] Queue full — 1601 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:44,658 [PacketCapture] WARNING: [PacketCapture] Queue full — 1701 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:45,537 [PacketCapture] WARNING: [PacketCapture] Queue full — 1801 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:45,579 [PacketCapture] WARNING: [PacketCapture] Queue full — 1901 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:48,219 [PacketCapture] INFO: [PacketCapture] 7,000 packets captured | 21 unique sources | 1998 dropped
+2026-03-27 19:04:48,241 [PacketCapture] WARNING: [PacketCapture] Queue full — 2001 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:04:49,142 [PacketCapture] WARNING: [PacketCapture] Queue full — 2101 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:01,115 [PacketCapture] WARNING: [PacketCapture] Queue full — 2201 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:08,211 [PacketCapture] WARNING: [PacketCapture] Queue full — 2301 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:09,317 [PacketCapture] WARNING: [PacketCapture] Queue full — 2401 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:11,602 [PacketCapture] INFO: [PacketCapture] 7,500 packets captured | 22 unique sources | 2498 dropped
+2026-03-27 19:05:11,725 [PacketCapture] WARNING: [PacketCapture] Queue full — 2501 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:14,840 [PacketCapture] WARNING: [PacketCapture] Queue full — 2601 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:16,285 [PacketCapture] WARNING: [PacketCapture] Queue full — 2701 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:18,472 [PacketCapture] WARNING: [PacketCapture] Queue full — 2801 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:24,486 [PacketCapture] WARNING: [PacketCapture] Queue full — 2901 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:33,480 [PacketCapture] INFO: [PacketCapture] 8,000 packets captured | 23 unique sources | 2998 dropped
+2026-03-27 19:05:33,480 [PacketCapture] WARNING: [PacketCapture] Queue full — 3001 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:36,758 [PacketCapture] WARNING: [PacketCapture] Queue full — 3101 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:05:37,293 [PacketCapture] WARNING: [PacketCapture] Queue full — 3201 packets dropped. Detection engine may be overloaded.
+2026-03-27 19:20:25,950 [NIDS] INFO: ============================================================
+2026-03-27 19:20:25,951 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:20:25,951 [NIDS] INFO: ============================================================
+2026-03-27 19:20:25,951 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:20:25,953 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:20:25,953 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:20:25,953 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:20:25,954 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:20:25,954 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:20:25,954 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:20:25,954 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:20:25,995 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:20:25,995 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:20:25,996 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:20:25,996 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:20:25,996 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:20:25,996 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:20:25,996 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:20:25,996 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:20:25,997 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:20:25,997 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:20:31,339 [PacketCapture] INFO: Packet capture started on: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:20:31,340 [NIDS] INFO: Capture started on interface: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:20:31,447 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 163.70.145.13
+2026-03-27 19:20:31,448 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 163.70.145.13 | severity=HIGH
+2026-03-27 19:23:50,066 [NIDS] INFO: ============================================================
+2026-03-27 19:23:50,067 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:23:50,067 [NIDS] INFO: ============================================================
+2026-03-27 19:23:50,067 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:23:50,069 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:23:50,069 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:23:50,069 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:23:50,069 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:23:50,070 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:23:50,070 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:23:50,070 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:23:50,100 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:23:50,101 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:23:50,101 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:23:50,101 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:23:50,101 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:23:50,101 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:23:50,102 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:23:50,102 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:23:50,102 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:23:50,102 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:23:56,330 [PacketCapture] INFO: Packet capture started on: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:23:56,331 [NIDS] INFO: Capture started on interface: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:23:56,382 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 103.186.196.17
+2026-03-27 19:23:56,383 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 103.186.196.17 | severity=HIGH
+2026-03-27 19:24:06,486 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 103.186.196.17
+2026-03-27 19:24:06,487 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 103.186.196.17 | severity=HIGH
+2026-03-27 19:24:10,571 [PacketCapture] INFO: [PacketCapture] 500 packets captured | 13 unique sources | 0 dropped
+2026-03-27 19:24:17,062 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 57.144.40.141
+2026-03-27 19:24:17,063 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 57.144.40.141 | severity=HIGH
+2026-03-27 19:24:27,366 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 57.144.40.141
+2026-03-27 19:24:27,366 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 57.144.40.141 | severity=HIGH
+2026-03-27 19:24:28,069 [PacketCapture] INFO: [PacketCapture] 1,000 packets captured | 18 unique sources | 0 dropped
+2026-03-27 19:24:38,960 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 47.128.238.211
+2026-03-27 19:24:38,961 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 47.128.238.211 | severity=HIGH
+2026-03-27 19:24:42,317 [AdvancedDetectionEngine] WARNING: [DETECTION] TCP_ACK Flood | Confidence: 100.0% | Severity: HIGH | Source: 103.186.196.17 | Target: 192.168.1.77
+2026-03-27 19:24:42,324 [NIDS] WARNING: [ALERT] TCP_ACK Flood | 103.186.196.17 -> 192.168.1.77 | severity=HIGH
+2026-03-27 19:24:42,567 [PacketCapture] INFO: [PacketCapture] 1,500 packets captured | 20 unique sources | 0 dropped
+2026-03-27 19:24:49,392 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 163.70.145.13
+2026-03-27 19:24:49,392 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 163.70.145.13 | severity=HIGH
+2026-03-27 19:24:57,181 [PacketCapture] INFO: [PacketCapture] 2,000 packets captured | 20 unique sources | 0 dropped
+2026-03-27 19:24:59,578 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.68 | Target: 239.255.255.250
+2026-03-27 19:24:59,579 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.68 -> 239.255.255.250 | severity=HIGH
+2026-03-27 19:25:04,500 [PacketCapture] INFO: [PacketCapture] 2,500 packets captured | 20 unique sources | 0 dropped
+2026-03-27 19:25:09,624 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.68 | Target: 239.255.255.250
+2026-03-27 19:25:09,624 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.68 -> 239.255.255.250 | severity=HIGH
+2026-03-27 19:25:10,906 [PacketCapture] INFO: [PacketCapture] 3,000 packets captured | 20 unique sources | 0 dropped
+2026-03-27 19:25:19,649 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.68 | Target: 239.255.255.250
+2026-03-27 19:25:19,650 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.68 -> 239.255.255.250 | severity=HIGH
+2026-03-27 19:25:22,086 [PacketCapture] INFO: [PacketCapture] 3,500 packets captured | 21 unique sources | 0 dropped
+2026-03-27 19:25:23,705 [NIDS] INFO: ============================================================
+2026-03-27 19:25:23,705 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:25:23,705 [NIDS] INFO: ============================================================
+2026-03-27 19:25:23,706 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:25:23,707 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:25:23,707 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:25:23,707 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:25:23,707 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:25:23,707 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:25:23,707 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:25:23,707 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:25:23,741 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:25:23,741 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:25:23,741 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:25:23,742 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:25:23,742 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:25:23,742 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:25:23,742 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:25:23,742 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:25:23,742 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:25:23,742 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:25:28,547 [PacketCapture] INFO: [PacketCapture] 4,000 packets captured | 21 unique sources | 0 dropped
+2026-03-27 19:25:29,694 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.68 | Target: 239.255.255.250
+2026-03-27 19:25:29,694 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.68 -> 239.255.255.250 | severity=HIGH
+2026-03-27 19:25:39,822 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.68 | Target: 239.255.255.250
+2026-03-27 19:25:39,823 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.68 -> 239.255.255.250 | severity=HIGH
+2026-03-27 19:25:40,020 [PacketCapture] INFO: [PacketCapture] 4,500 packets captured | 21 unique sources | 0 dropped
+2026-03-27 19:25:40,862 [AdvancedDetectionEngine] WARNING: [DETECTION] UDP Flood | Confidence: 100.0% | Severity: HIGH | Source: 142.250.193.67 | Target: 192.168.1.77
+2026-03-27 19:25:40,863 [NIDS] WARNING: [ALERT] UDP Flood | 142.250.193.67 -> 192.168.1.77 | severity=HIGH
+2026-03-27 19:25:44,151 [PacketCapture] INFO: [PacketCapture] 5,000 packets captured | 22 unique sources | 0 dropped
+2026-03-27 19:25:49,944 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 103.186.196.17
+2026-03-27 19:25:49,944 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 103.186.196.17 | severity=HIGH
+2026-03-27 19:25:52,178 [PacketCapture] INFO: [PacketCapture] 5,500 packets captured | 22 unique sources | 0 dropped
+2026-03-27 19:26:00,088 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 18.97.36.8
+2026-03-27 19:26:00,089 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 18.97.36.8 | severity=HIGH
+2026-03-27 19:26:05,529 [PacketCapture] INFO: Packet capture stopped.
+2026-03-27 19:26:05,529 [NIDS] INFO: Capture stopped.
+2026-03-27 19:35:53,739 [NIDS] INFO: ============================================================
+2026-03-27 19:35:53,739 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:35:53,739 [NIDS] INFO: ============================================================
+2026-03-27 19:35:53,739 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:35:53,740 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:35:53,741 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:35:53,741 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:35:53,741 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:35:53,741 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:35:53,741 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:35:53,741 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:35:53,779 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:35:53,779 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:35:53,779 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:35:53,779 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:35:53,779 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:35:53,779 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:35:53,779 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:35:53,779 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:35:53,780 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:35:53,780 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:36:57,126 [NIDS] INFO: ============================================================
+2026-03-27 19:36:57,126 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:36:57,127 [NIDS] INFO: ============================================================
+2026-03-27 19:36:57,127 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:36:57,128 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:36:57,129 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:36:57,129 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:36:57,129 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:36:57,129 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:36:57,129 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:36:57,129 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:36:57,162 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:36:57,162 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:36:57,162 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:36:57,162 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:36:57,163 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:36:57,163 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:36:57,163 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:36:57,163 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:36:57,163 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:36:57,163 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:37:29,015 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:43,518 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:45,767 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:46,423 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:46,663 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:46,847 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:47,151 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:47,662 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:48,087 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:48,591 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:49,080 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:49,479 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:49,935 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:50,350 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:50,727 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:51,055 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:51,319 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:51,543 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:51,751 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:51,935 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:52,111 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:52,487 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:52,639 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:52,790 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:52,943 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:53,103 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:53,247 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:53,391 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:53,535 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:53,831 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:54,079 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:37:59,543 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1' found 0 device(s)
+2026-03-27 19:38:04,814 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.64' found 0 device(s)
+2026-03-27 19:38:09,383 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.69' found 0 device(s)
+2026-03-27 19:38:10,359 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.69' found 0 device(s)
+2026-03-27 19:38:10,559 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.69' found 0 device(s)
+2026-03-27 19:38:10,703 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.69' found 0 device(s)
+2026-03-27 19:38:21,951 [PacketCapture] INFO: Packet capture started on: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:38:21,952 [NIDS] INFO: Capture started on interface: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:38:22,758 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 13.67.9.5
+2026-03-27 19:38:22,758 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 13.67.9.5 | severity=HIGH
+2026-03-27 19:38:25,095 [PacketCapture] INFO: [PacketCapture] 500 packets captured | 7 unique sources | 0 dropped
+2026-03-27 19:38:25,399 [PacketCapture] INFO: [PacketCapture] 1,000 packets captured | 7 unique sources | 0 dropped
+2026-03-27 19:38:25,750 [PacketCapture] INFO: [PacketCapture] 1,500 packets captured | 7 unique sources | 0 dropped
+2026-03-27 19:38:28,448 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.69' found 0 device(s)
+2026-03-27 19:38:33,466 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 34.111.24.1
+2026-03-27 19:38:33,466 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 34.111.24.1 | severity=HIGH
+2026-03-27 19:38:37,959 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1' found 0 device(s)
+2026-03-27 19:38:43,143 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 0 device(s)
+2026-03-27 19:38:46,656 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 163.70.145.57
+2026-03-27 19:38:46,657 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 163.70.145.57 | severity=HIGH
+2026-03-27 19:38:47,443 [AdvancedDetectionEngine] WARNING: [DETECTION] TCP_ACK Flood | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 103.186.197.76
+2026-03-27 19:38:47,444 [NIDS] WARNING: [ALERT] TCP_ACK Flood | 192.168.1.77 -> 103.186.197.76 | severity=HIGH
+2026-03-27 19:38:47,490 [PacketCapture] INFO: [PacketCapture] 2,000 packets captured | 19 unique sources | 0 dropped
+2026-03-27 19:38:48,200 [PacketCapture] INFO: [PacketCapture] 2,500 packets captured | 19 unique sources | 0 dropped
+2026-03-27 19:38:56,686 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 20.205.243.168
+2026-03-27 19:38:56,688 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 20.205.243.168 | severity=HIGH
+2026-03-27 19:39:01,525 [PacketCapture] INFO: [PacketCapture] 3,000 packets captured | 31 unique sources | 0 dropped
+2026-03-27 19:39:07,715 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 140.82.113.21 | Target: 192.168.1.77
+2026-03-27 19:39:07,716 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 140.82.113.21 -> 192.168.1.77 | severity=HIGH
+2026-03-27 19:39:08,113 [PacketCapture] INFO: Packet capture stopped.
+2026-03-27 19:39:08,113 [NIDS] INFO: Capture stopped.
+2026-03-27 19:40:12,957 [NIDS] INFO: ============================================================
+2026-03-27 19:40:12,957 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:40:12,957 [NIDS] INFO: ============================================================
+2026-03-27 19:40:12,957 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:40:12,958 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:40:12,959 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:40:12,959 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:40:12,959 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:40:12,959 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:40:12,959 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:40:12,959 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:40:12,998 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:40:12,998 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:40:12,998 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:40:12,998 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:40:12,998 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:40:12,998 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:40:12,999 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:40:12,999 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:40:12,999 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:40:12,999 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:40:13,826 [NetworkScanner] INFO: [ARP] Starting discovery scan on 192.168.1.0/24...
+2026-03-27 19:40:15,272 [NetworkScanner] INFO: [ARP] Discovered device: 192.168.1.77 (80:b6:55:ec:66:e8)
+2026-03-27 19:40:15,272 [NetworkScanner] INFO: [ARP] Discovery complete: Found 1 device(s)
+2026-03-27 19:40:59,704 [NIDS] INFO: ============================================================
+2026-03-27 19:40:59,704 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:40:59,705 [NIDS] INFO: ============================================================
+2026-03-27 19:40:59,705 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:40:59,706 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:40:59,707 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:40:59,707 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:40:59,707 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:40:59,708 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:40:59,708 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:40:59,708 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:40:59,733 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:40:59,734 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:40:59,734 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:40:59,734 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:40:59,734 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:40:59,734 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:40:59,735 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:40:59,735 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:40:59,735 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:40:59,735 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:41:00,474 [NetworkScanner] INFO: [ARP] Starting discovery scan on 192.168.1.0/24...
+2026-03-27 19:41:01,766 [NetworkScanner] INFO: [ARP] Discovered device: 192.168.1.77 (80:b6:55:ec:66:e8)
+2026-03-27 19:41:01,767 [NetworkScanner] INFO: [ARP] Discovery complete: Found 1 device(s)
+2026-03-27 19:41:25,872 [NetworkScanner] INFO: [ARP] Starting discovery scan on 192.168.1.0/24...
+2026-03-27 19:41:27,261 [NetworkScanner] INFO: [ARP] Discovery complete: Found 1 device(s)
+2026-03-27 19:55:44,691 [NIDS] INFO: ============================================================
+2026-03-27 19:55:44,692 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:55:44,692 [NIDS] INFO: ============================================================
+2026-03-27 19:55:44,692 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:55:44,693 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:55:44,693 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:55:44,693 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:55:44,694 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:55:44,694 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:55:44,694 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:55:44,694 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:55:44,726 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:55:44,726 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:55:44,726 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:55:44,726 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:55:44,726 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:55:44,726 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:55:44,726 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:55:44,726 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:55:44,726 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:55:44,726 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:55:45,213 [NetworkScanner] INFO: [DISCOVERY] Method 1: ARP scan on 192.168.1.0/24...
+2026-03-27 19:55:46,582 [NetworkScanner] INFO:   [✓] ARP: 192.168.1.77 (80:b6:55:ec:66:e8)
+2026-03-27 19:55:46,583 [NetworkScanner] INFO: [DISCOVERY] ARP found 1 device(s)
+2026-03-27 19:55:52,332 [PacketCapture] INFO: Packet capture started on: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:55:52,332 [NIDS] INFO: Capture started on interface: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:55:52,356 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 140.82.113.22 | Target: 192.168.1.77
+2026-03-27 19:55:52,356 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 140.82.113.22 -> 192.168.1.77 | severity=HIGH
+2026-03-27 19:56:49,826 [NIDS] INFO: ============================================================
+2026-03-27 19:56:49,826 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 19:56:49,827 [NIDS] INFO: ============================================================
+2026-03-27 19:56:49,827 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:56:49,829 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:56:49,830 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:56:49,830 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 19:56:49,830 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 19:56:49,830 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 19:56:49,830 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 19:56:49,831 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 19:56:49,857 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 19:56:49,858 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 19:56:49,858 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 19:56:49,858 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 19:56:49,858 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 19:56:49,859 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 19:56:49,859 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 19:56:49,859 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 19:56:49,859 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 19:56:49,860 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 19:56:50,241 [NetworkScanner] INFO: [DISCOVERY] Method 1: ARP scan on 192.168.1.0/24...
+2026-03-27 19:56:51,696 [NetworkScanner] INFO:   [✓] ARP: 192.168.1.77 (80:b6:55:ec:66:e8)
+2026-03-27 19:56:51,697 [NetworkScanner] INFO: [DISCOVERY] ARP found 1 device(s)
+2026-03-27 19:56:55,693 [NetworkScanner] INFO: [DISCOVERY] Method 1: ARP scan on 192.168.1.0/24...
+2026-03-27 19:56:56,941 [NetworkScanner] INFO:   [✓] ARP: 192.168.1.77 (80:b6:55:ec:66:e8)
+2026-03-27 19:56:56,941 [NetworkScanner] INFO: [DISCOVERY] ARP found 1 device(s)
+2026-03-27 19:58:34,675 [NetworkScanner] INFO: [SEARCH] Query '192.168.1.1/24' found 1 device(s)
+2026-03-27 20:12:16,091 [NIDS] INFO: ============================================================
+2026-03-27 20:12:16,091 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 20:12:16,091 [NIDS] INFO: ============================================================
+2026-03-27 20:12:16,091 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:12:25,246 [NIDS] INFO: ============================================================
+2026-03-27 20:12:25,246 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 20:12:25,246 [NIDS] INFO: ============================================================
+2026-03-27 20:12:25,246 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:12:59,156 [NIDS] INFO: ============================================================
+2026-03-27 20:12:59,157 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 20:12:59,157 [NIDS] INFO: ============================================================
+2026-03-27 20:12:59,157 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:12:59,158 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 20:12:59,158 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:12:59,158 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 20:12:59,158 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 20:12:59,158 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 20:12:59,191 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 20:12:59,191 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 20:12:59,191 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 20:12:59,191 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 20:12:59,191 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 20:12:59,191 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 20:12:59,191 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 20:12:59,191 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 20:12:59,191 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 20:12:59,191 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 20:12:59,580 [NetworkScanner] INFO: [DISCOVERY] Method 1: ARP scan on 192.168.1.0/24...
+2026-03-27 20:13:00,818 [NetworkScanner] INFO:   [✓] ARP: 192.168.1.77 (80:b6:55:ec:66:e8)
+2026-03-27 20:13:00,818 [NetworkScanner] INFO: [DISCOVERY] ARP found 1 device(s)
+2026-03-27 20:13:09,490 [NetworkScanner] INFO: [DISCOVERY] Method 1: ARP scan on 192.168.1.0/24...
+2026-03-27 20:13:10,772 [NetworkScanner] INFO:   [✓] ARP: 192.168.1.77 (80:b6:55:ec:66:e8)
+2026-03-27 20:13:10,773 [NetworkScanner] INFO: [DISCOVERY] ARP found 1 device(s)
+2026-03-27 20:18:59,577 [NIDS] INFO: ============================================================
+2026-03-27 20:18:59,577 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 20:18:59,578 [NIDS] INFO: ============================================================
+2026-03-27 20:18:59,578 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:18:59,579 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:18:59,579 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 20:18:59,580 [NetworkScanner] INFO: [NETWORK SCANNER] Initialized for network: 192.168.1.0/24
+2026-03-27 20:18:59,580 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:18:59,580 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 20:18:59,580 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 20:18:59,580 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 20:18:59,605 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 20:18:59,606 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 20:18:59,606 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 20:18:59,606 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 20:18:59,606 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 20:18:59,607 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 20:18:59,607 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 20:18:59,607 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 20:18:59,607 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 20:18:59,607 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 20:18:59,977 [NetworkScanner] INFO: [DISCOVERY] Scanning network: 192.168.1.0/24
+2026-03-27 20:32:14,225 [NIDS] INFO: ============================================================
+2026-03-27 20:32:14,226 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 20:32:14,226 [NIDS] INFO: ============================================================
+2026-03-27 20:32:14,227 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:32:14,227 [NetworkScanner] INFO: NetworkScanner initialized
+2026-03-27 20:32:14,227 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:32:14,227 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 20:32:14,228 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 20:32:14,228 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 20:32:14,255 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 20:32:14,255 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 20:32:14,255 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 20:32:14,256 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 20:32:14,256 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 20:32:14,256 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 20:32:14,256 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 20:32:14,257 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 20:32:14,257 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 20:32:14,257 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 20:32:14,993 [NetworkScanner] INFO: [DISCOVERY] Starting ARP scan on 192.168.1.0/24
+2026-03-27 20:32:17,352 [NetworkScanner] INFO: [DEVICE_DISCOVERED] 192.168.1.77 (80:b6:55:ec:66:e8) - ashisharyal
+2026-03-27 20:32:17,352 [NetworkScanner] INFO: [DISCOVERY] Discovered 1 device(s)
+2026-03-27 20:32:24,374 [PacketCapture] INFO: Packet capture started on: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 20:32:24,375 [NIDS] INFO: Capture started on interface: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 20:32:26,190 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 57.144.40.141
+2026-03-27 20:32:26,191 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 57.144.40.141 | severity=HIGH
+2026-03-27 20:32:26,518 [NetworkScanner] INFO: [DISCOVERY] Starting ARP scan on 192.168.1.0/24
+2026-03-27 20:32:28,800 [NetworkScanner] INFO: [DISCOVERY] Discovered 1 device(s)
+2026-03-27 20:32:36,467 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 35.82.50.158
+2026-03-27 20:32:36,468 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 35.82.50.158 | severity=HIGH
+2026-03-27 20:32:47,048 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 47.128.238.211
+2026-03-27 20:32:47,049 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 47.128.238.211 | severity=HIGH
+2026-03-27 20:32:53,125 [PacketCapture] INFO: [PacketCapture] 500 packets captured | 21 unique sources | 0 dropped
+2026-03-27 20:32:57,078 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 140.82.114.22
+2026-03-27 20:32:57,078 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 140.82.114.22 | severity=HIGH
+2026-03-27 20:33:01,611 [PacketCapture] INFO: [PacketCapture] 1,000 packets captured | 28 unique sources | 0 dropped
+2026-03-27 20:33:07,083 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 35.82.50.158
+2026-03-27 20:33:07,084 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 35.82.50.158 | severity=HIGH
+2026-03-27 20:33:09,752 [PacketCapture] INFO: [PacketCapture] 1,500 packets captured | 29 unique sources | 0 dropped
+2026-03-27 20:33:16,130 [PacketCapture] INFO: [PacketCapture] 2,000 packets captured | 29 unique sources | 0 dropped
+2026-03-27 20:33:17,095 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 163.70.145.57
+2026-03-27 20:33:17,095 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 163.70.145.57 | severity=HIGH
+2026-03-27 20:33:27,240 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 57.144.40.141
+2026-03-27 20:33:27,241 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 57.144.40.141 | severity=HIGH
+2026-03-27 20:33:35,409 [PacketCapture] INFO: [PacketCapture] 2,500 packets captured | 30 unique sources | 0 dropped
+2026-03-27 20:33:37,387 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 35.82.50.158
+2026-03-27 20:33:37,388 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 35.82.50.158 | severity=HIGH
+2026-03-27 20:49:27,101 [NIDS] INFO: ============================================================
+2026-03-27 20:49:27,102 [NIDS] INFO: NIDS Starting - Signature-Based Intrusion Detection System
+2026-03-27 20:49:27,102 [NIDS] INFO: ============================================================
+2026-03-27 20:49:27,103 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:49:27,103 [NetworkScanner] INFO: NetworkScanner initialized
+2026-03-27 20:49:27,104 [AdvancedDetectionEngine] INFO: [ADVANCED DETECTION] Initialized with adaptive signatures
+2026-03-27 20:49:27,104 [AdvancedDetectionEngine] INFO: [CONFIG] Confidence threshold set to 50%
+2026-03-27 20:49:27,104 [HotspotMonitor] INFO: [HOTSPOT MONITOR] Initialized (Hotspot IP: 192.168.43.1)
+2026-03-27 20:49:27,104 [NIDS] INFO: Available interfaces: ['\\Device\\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}', '\\Device\\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}', '\\Device\\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}', '\\Device\\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}', '\\Device\\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}', '\\Device\\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}', '\\Device\\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}', '\\Device\\NPF_Loopback', '\\Device\\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}']
+2026-03-27 20:49:27,131 [NIDS] INFO: Best interface detected: [WiFi]     WiFi (192.168.1.77)
+2026-03-27 20:49:27,131 [NIDS] INFO:   Interface: [WiFi]     WiFi (192.168.1.77) -> \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 20:49:27,131 [NIDS] INFO:   Interface: [Ethernet] Ethernet 2 (169.254.14.166) -> \Device\NPF_{D00CE2EF-A43D-4E14-AE44-E7A26EAB3EBC}
+2026-03-27 20:49:27,131 [NIDS] INFO:   Interface: [Ethernet] Ethernet -> \Device\NPF_{6BC1616E-85F7-4191-AF10-7E8DCAC4E930}
+2026-03-27 20:49:27,131 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 10 -> \Device\NPF_{A423811C-46C9-42F1-8D1C-C6CBA50973BE}
+2026-03-27 20:49:27,132 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 9 -> \Device\NPF_{952C03EB-1FA3-4454-8294-F2B74BC50A67}
+2026-03-27 20:49:27,132 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 8 -> \Device\NPF_{0341EC7D-2449-4A27-A56F-1A9CAC0698EA}
+2026-03-27 20:49:27,132 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 2 -> \Device\NPF_{9D027F6C-3007-4EDD-9E79-062DB4648A15}
+2026-03-27 20:49:27,132 [NIDS] INFO:   Interface: [Hotspot]  Local Area Connection* 1 -> \Device\NPF_{D8E75DCC-51C9-4C63-B0C3-01101D39D36B}
+2026-03-27 20:49:27,132 [NIDS] INFO:   Interface: [Loopback] Npcap Loopback Adapter (127.0.0.1) -> \Device\NPF_Loopback
+2026-03-27 20:49:27,507 [NetworkScanner] INFO: [ARP_SCAN] Starting ARP scan on 192.168.1.0/24
+2026-03-27 20:49:27,507 [NetworkScanner] INFO: Started continuous discovery on 192.168.1.0/24
+2026-03-27 20:49:27,508 [NetworkScanner] INFO: [DISCOVERY] Starting ARP scan on 192.168.1.0/24
+2026-03-27 20:49:30,204 [NetworkScanner] INFO: [DEVICE_DISCOVERED] 192.168.1.77 (80:b6:55:ec:66:e8) - ashisharyal
+2026-03-27 20:49:30,204 [NetworkScanner] INFO: [DISCOVERY] Discovered 1 device(s)
+2026-03-27 20:49:30,238 [NetworkScanner] INFO: [ARP_SCAN] Discovered 1 device(s) on 192.168.1.0/24
+2026-03-27 20:49:32,970 [PacketCapture] INFO: Packet capture started on: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 20:49:32,971 [NIDS] INFO: Capture started on interface: \Device\NPF_{987610F9-9E02-404A-B0FE-637C80B0DE5D}
+2026-03-27 20:49:33,257 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 18.97.36.45 | Target: 192.168.1.77
+2026-03-27 20:49:33,257 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 18.97.36.45 -> 192.168.1.77 | severity=HIGH
+2026-03-27 20:49:43,752 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 18.97.36.45
+2026-03-27 20:49:43,753 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 18.97.36.45 | severity=HIGH
+2026-03-27 20:49:44,436 [NetworkScanner] INFO: [DISCOVERY] Starting ARP scan on 192.168.1.0/24
+2026-03-27 20:49:46,749 [NetworkScanner] INFO: [DISCOVERY] Discovered 1 device(s)
+2026-03-27 20:49:50,635 [NetworkScanner] INFO: [DISCOVERY] Starting ARP scan on 192.168.1.0/24
+2026-03-27 20:49:52,997 [NetworkScanner] INFO: [DISCOVERY] Discovered 1 device(s)
+2026-03-27 20:49:55,545 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 13.67.9.5
+2026-03-27 20:49:55,546 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 13.67.9.5 | severity=HIGH
+2026-03-27 20:50:00,239 [NetworkScanner] INFO: [ARP_SCAN] Starting ARP scan on 192.168.1.0/24
+2026-03-27 20:50:02,568 [NetworkScanner] INFO: [ARP_SCAN] Discovered 1 device(s) on 192.168.1.0/24
+2026-03-27 20:50:05,763 [AdvancedDetectionEngine] WARNING: [DETECTION] Targeted Attack Pattern | Confidence: 100.0% | Severity: HIGH | Source: 192.168.1.77 | Target: 57.144.40.145
+2026-03-27 20:50:05,764 [NIDS] WARNING: [ALERT] Targeted Attack Pattern | 192.168.1.77 -> 57.144.40.145 | severity=HIGH
+2026-03-27 20:50:09,989 [AdvancedDetectionEngine] WARNING: [DETECTION] TCP_ACK Flood | Confidence: 100.0% | Severity: HIGH | Source: 142.250.67.74 | Target: 192.168.1.77
+2026-03-27 20:50:09,990 [NIDS] WARNING: [ALERT] TCP_ACK Flood | 142.250.67.74 -> 192.168.1.77 | severity=HIGH
